@@ -1,0 +1,42 @@
+{
+  "family": {
+    "empty": {
+      "title": "THE VOTE",
+      "text": "You stopped being a man they would die for somewhere between the second broken promise and the funeral nobody attended. When it comes it is not a war, it is paperwork: three of your own capos in a back room, deciding which of them owes you the courtesy of doing it himself. The vote is unanimous and it does not take long."
+    },
+    "full": {
+      "title": "THE STATUE",
+      "text": "You gave them everything they asked for, and they love you the way a town loves a statue. It did not take a year: every earner has his own crew now, every crew has its own rules, and the only thing still running through you is the applause. They will keep your picture on the wall long after they stop bringing you the envelopes."
+    }
+  },
+  "commission": {
+    "empty": {
+      "title": "SANCTIONED",
+      "text": "The other families stopped returning calls weeks ago, and the sit-down you were not invited to was the one that mattered. A sanctioned hit is the quietest thing in this world: no vendetta, no reprisal, nobody left to answer to afterwards. It arrives on an ordinary Tuesday, carried by someone you would have vouched for."
+    },
+    "full": {
+      "title": "THE ERRAND BOY",
+      "text": "You never once said no to that table, and they noticed inside a season. Every family in the city holds a favour of yours now, and not one of them owes you anything back. You are the most trusted man in that room, which is only another way of saying you are the one they send."
+    }
+  },
+  "cops": {
+    "empty": {
+      "title": "BENEATH NOTICE",
+      "text": "A whole season without an arrest, a summons, or a detective on the block, because there is nothing here worth a detective's afternoon. The captain your father bought stopped taking the envelope and then stopped taking the call, and nobody sells protection to a man nobody is hunting. The police were the last people in Brooklyn who took you seriously, and they stopped a long while after everybody else."
+    },
+    "full": {
+      "title": "THE INDICTMENT",
+      "text": "You ran hot from the first week, and every day of it went into a folder in somebody else's handwriting. They do not need a body, or a witness who lives long enough to testify. They need a pattern, and you drew them a beautiful one in a season: the raids, the wires, the men picked up talking on an ordinary Tuesday. Forty-one names, and yours on the first page."
+    }
+  },
+  "cash": {
+    "empty": {
+      "title": "BAD PAYDAY",
+      "text": "The envelopes went out lighter, then late, then not at all, and it took three Fridays. A man can survive being feared and he can survive being loved, but nobody has ever survived being a bad payday. They do not turn on you so much as drift, until one morning you are a man with opinions and nobody in the room."
+    },
+    "full": {
+      "title": "THE PAPERWORK",
+      "text": "Money this loud introduces itself, and it did not take it long. There is no informant and no wire, only a patient accountant with a subpoena and one very simple question about a house you cannot explain. They will never get you for the things you actually did. They will get you for the paperwork, and it will stick."
+    }
+  }
+}

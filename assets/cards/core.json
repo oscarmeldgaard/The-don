@@ -1,0 +1,1345 @@
+[
+  {
+    "id": "core_01",
+    "speaker": "PLACEHOLDER DON",
+    "text": "Placeholder text: the docks are ours by Friday, boss. Say the word.",
+    "left": {
+      "label": "NOT YET",
+      "effects": {
+        "family": -6,
+        "commission": 4,
+        "cops": -2,
+        "cash": -8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "TAKE THEM",
+      "effects": {
+        "family": 7,
+        "commission": -5,
+        "cops": 9,
+        "cash": 14,
+        "blood": 0
+      },
+      "setFlags": [
+        "docks_taken"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 10,
+    "once": false
+  },
+  {
+    "id": "core_02",
+    "speaker": "TEST CONSIGLIERE",
+    "text": "Placeholder text: the Commission wants a sit-down. Dummy copy here.",
+    "left": {
+      "label": "DECLINE",
+      "effects": {
+        "family": 3,
+        "commission": -12,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "commission_snubbed"
+      ]
+    },
+    "right": {
+      "label": "SIT DOWN",
+      "effects": {
+        "family": -2,
+        "commission": 11,
+        "cops": 3,
+        "cash": -6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "core_03",
+    "speaker": "FAKE CAPO VINNIE",
+    "text": "Placeholder text: a detective has been sniffing around the social club.",
+    "left": {
+      "label": "IGNORE HIM",
+      "effects": {
+        "family": 0,
+        "commission": 0,
+        "cops": 10,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "PAY HIM OFF",
+      "effects": {
+        "family": 2,
+        "commission": 1,
+        "cops": -13,
+        "cash": -16,
+        "blood": 0
+      },
+      "setFlags": [
+        "cop_on_payroll"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 12,
+    "once": false
+  },
+  {
+    "id": "core_04",
+    "speaker": "DUMMY UNDERBOSS",
+    "text": "Placeholder text: the numbers racket is short again this month.",
+    "left": {
+      "label": "LET IT SLIDE",
+      "effects": {
+        "family": 6,
+        "commission": 0,
+        "cops": 0,
+        "cash": -12,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SEND A MESSAGE",
+      "effects": {
+        "family": -8,
+        "commission": 2,
+        "cops": 5,
+        "cash": 9,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "core_05",
+    "speaker": "SAMPLE PRIEST",
+    "text": "Placeholder text: the parish roof needs work, and so does your soul.",
+    "left": {
+      "label": "NOTHING",
+      "effects": {
+        "family": -4,
+        "commission": 0,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "DONATE",
+      "effects": {
+        "family": 9,
+        "commission": 0,
+        "cops": -4,
+        "cash": -14,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 6,
+    "once": true
+  },
+  {
+    "id": "core_06",
+    "speaker": "LOREM SOLDIER",
+    "text": "Placeholder text: a rival crew clipped one of ours outside the bakery.",
+    "left": {
+      "label": "STAND DOWN",
+      "effects": {
+        "family": -14,
+        "commission": 6,
+        "cops": -3,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "RETALIATE",
+      "effects": {
+        "family": 12,
+        "commission": -9,
+        "cops": 11,
+        "cash": -5,
+        "blood": 0
+      },
+      "setFlags": [
+        "at_war"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 11,
+    "once": false
+  },
+  {
+    "id": "core_07",
+    "speaker": "ROSA",
+    "text": "Nicky asked where you were. I told him you were working. I have been telling him that since he was four.",
+    "left": {
+      "label": "THERE IS A SIT-DOWN",
+      "effects": {
+        "family": -3,
+        "commission": 8,
+        "cops": 0,
+        "cash": 4,
+        "blood": 12
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "STAY",
+      "effects": {
+        "family": 9,
+        "commission": -6,
+        "cops": 0,
+        "cash": -4,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "core_08",
+    "speaker": "TEST ACCOUNTANT",
+    "text": "Placeholder text: the books will not survive an audit. Dummy line.",
+    "left": {
+      "label": "BURN THEM",
+      "effects": {
+        "family": 0,
+        "commission": 0,
+        "cops": -8,
+        "cash": -18,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "COOK THEM",
+      "effects": {
+        "family": 2,
+        "commission": 3,
+        "cops": 12,
+        "cash": 17,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "core_09",
+    "speaker": "FAKE ALDERMAN",
+    "text": "Placeholder text: my re-election could use a generous friend.",
+    "left": {
+      "label": "REFUSE",
+      "effects": {
+        "family": 0,
+        "commission": -3,
+        "cops": 7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "FUND HIM",
+      "effects": {
+        "family": 0,
+        "commission": 8,
+        "cops": -11,
+        "cash": -20,
+        "blood": 0
+      },
+      "setFlags": [
+        "alderman_funded"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 5,
+    "once": true
+  },
+  {
+    "id": "core_10",
+    "speaker": "NICKY",
+    "text": "Every kid on this block knows what you are except me. Put me on something. Anything. I will not ask twice.",
+    "left": {
+      "label": "FINISH SCHOOL",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "GIVE HIM A CORNER",
+      "effects": {
+        "family": 9,
+        "commission": 3,
+        "cops": 5,
+        "cash": 7,
+        "blood": 16
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 6,
+    "once": true
+  },
+  {
+    "id": "core_11",
+    "speaker": "SAMPLE BOOKIE",
+    "text": "Placeholder text: a whale is into us for a placeholder sum.",
+    "left": {
+      "label": "FORGIVE IT",
+      "effects": {
+        "family": 4,
+        "commission": 0,
+        "cops": 0,
+        "cash": -15,
+        "blood": 0
+      },
+      "setFlags": [
+        "whale_forgiven"
+      ]
+    },
+    "right": {
+      "label": "COLLECT",
+      "effects": {
+        "family": -3,
+        "commission": 0,
+        "cops": 8,
+        "cash": 16,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 10,
+    "once": false
+  },
+  {
+    "id": "core_12",
+    "speaker": "PLACEHOLDER FED",
+    "text": "Placeholder text: we can make this easy or hard. Filler threat.",
+    "left": {
+      "label": "LAWYER UP",
+      "effects": {
+        "family": -5,
+        "commission": 2,
+        "cops": -6,
+        "cash": -13,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SAY NOTHING",
+      "effects": {
+        "family": 8,
+        "commission": 5,
+        "cops": 14,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "fed_stonewalled"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "cop_on_payroll"
+      ]
+    },
+    "weight": 7,
+    "once": false
+  },
+  {
+    "id": "core_13",
+    "speaker": "TEST RIVAL BOSS",
+    "text": "Placeholder text: split the territory and nobody bleeds. Dummy offer.",
+    "left": {
+      "label": "NO DEAL",
+      "effects": {
+        "family": 7,
+        "commission": -7,
+        "cops": 4,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SPLIT IT",
+      "effects": {
+        "family": -9,
+        "commission": 10,
+        "cops": -5,
+        "cash": -11,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "at_war"
+      ],
+      "excludesFlags": [
+        "commission_snubbed"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "core_14",
+    "speaker": "FAKE DOCKWORKER",
+    "text": "Placeholder text: the union boys want a bigger cut. Filler demand.",
+    "left": {
+      "label": "REFUSE",
+      "effects": {
+        "family": -5,
+        "commission": 0,
+        "cops": 3,
+        "cash": 8,
+        "blood": 0
+      },
+      "setFlags": [
+        "union_refused"
+      ]
+    },
+    "right": {
+      "label": "AGREE",
+      "effects": {
+        "family": 6,
+        "commission": 2,
+        "cops": -2,
+        "cash": -10,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "docks_taken"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "core_15",
+    "speaker": "DUMMY INFORMANT",
+    "text": "Placeholder text: somebody at the table is wearing a wire. Fake tip.",
+    "left": {
+      "label": "DOUBT IT",
+      "effects": {
+        "family": -4,
+        "commission": 0,
+        "cops": 9,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "FIND HIM",
+      "effects": {
+        "family": 3,
+        "commission": -4,
+        "cops": -7,
+        "cash": -6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 11,
+    "once": false
+  },
+  {
+    "id": "core_16",
+    "speaker": "SAL",
+    "text": "You gave the Fulton run to a man who was sweeping floors when I was already earning. I said nothing in the room. I am saying it now.",
+    "left": {
+      "label": "IT IS DECIDED",
+      "effects": {
+        "family": -4,
+        "commission": 7,
+        "cops": 0,
+        "cash": 6,
+        "blood": 11
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "IT IS HIS",
+      "effects": {
+        "family": 8,
+        "commission": -6,
+        "cops": 0,
+        "cash": -8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "core_17",
+    "speaker": "ROSA",
+    "text": "My brother has been out of work since March. Something quiet, at the yard. He does not need to know anything.",
+    "left": {
+      "label": "THERE IS NO ROOM",
+      "effects": {
+        "family": -3,
+        "commission": 0,
+        "cops": -3,
+        "cash": 5,
+        "blood": 9
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "FIND HIM SOMETHING",
+      "effects": {
+        "family": 6,
+        "commission": 0,
+        "cops": 4,
+        "cash": -8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "core_18",
+    "speaker": "THE LAWYER",
+    "text": "They picked Nicky up in a car that was not his. He has not said a word to them, which is the only good news I have.",
+    "left": {
+      "label": "LET HIM SIT",
+      "effects": {
+        "family": -2,
+        "commission": 4,
+        "cops": -8,
+        "cash": 0,
+        "blood": 14
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "MAKE THE CALLS",
+      "effects": {
+        "family": 5,
+        "commission": 0,
+        "cops": 9,
+        "cash": -13,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 7,
+    "once": true
+  },
+  {
+    "id": "core_19",
+    "speaker": "THE BOOKKEEPER",
+    "text": "Sal's envelopes have run light four months now. The crew has been counting. They are waiting to see whether counting matters.",
+    "left": {
+      "label": "IN FRONT OF THEM",
+      "effects": {
+        "family": 12,
+        "commission": 5,
+        "cops": 0,
+        "cash": 4,
+        "blood": 20
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "COVER IT YOURSELF",
+      "effects": {
+        "family": -7,
+        "commission": -2,
+        "cops": 0,
+        "cash": -11,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "core_20",
+    "speaker": "ROSA",
+    "text": "Buy the house upstate. I am not asking you to stop. I am asking to be a woman who eats dinner with her husband.",
+    "left": {
+      "label": "NOT THIS YEAR",
+      "effects": {
+        "family": -3,
+        "commission": 5,
+        "cops": 0,
+        "cash": 8,
+        "blood": 11
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "START LOOKING",
+      "effects": {
+        "family": 7,
+        "commission": -7,
+        "cops": 0,
+        "cash": -12,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 7,
+    "once": false
+  },
+  {
+    "id": "core_21",
+    "speaker": "SAL",
+    "text": "I was standing where you were supposed to be standing. The doctor says I will walk again. He would not say when.",
+    "left": {
+      "label": "BEHIND A DESK",
+      "effects": {
+        "family": -3,
+        "commission": 6,
+        "cops": -4,
+        "cash": 0,
+        "blood": 10
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "GIVE HIM THE CREW",
+      "effects": {
+        "family": 9,
+        "commission": -6,
+        "cops": 6,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 6,
+    "once": true
+  },
+  {
+    "id": "core_22",
+    "speaker": "NICKY",
+    "text": "I sat at that dinner and watched you lie to men who have eaten in our kitchen. I am not asking you to stop. I am asking you to teach me how.",
+    "left": {
+      "label": "TEACH HIM",
+      "effects": {
+        "family": 8,
+        "commission": 4,
+        "cops": 0,
+        "cash": 5,
+        "blood": 18
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SEND HIM HOME",
+      "effects": {
+        "family": -5,
+        "commission": 0,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 7,
+    "once": false
+  },
+  {
+    "id": "core_23",
+    "speaker": "ROSA",
+    "text": "Three funerals this year and I knew every one of them. Tell me one name worth the way our son watches the door when a car slows down.",
+    "left": {
+      "label": "IT IS WORTH IT",
+      "effects": {
+        "family": 6,
+        "commission": 6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 13
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SAY NOTHING",
+      "effects": {
+        "family": -4,
+        "commission": -3,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 7,
+    "once": false
+  },
+  {
+    "id": "heir_01",
+    "speaker": "THE UNDERBOSS",
+    "text": "The Ferraro crew has not forgotten what your father did. They have simply been waiting for somebody smaller to do it to.",
+    "left": {
+      "label": "MAKE PEACE",
+      "effects": {
+        "family": -8,
+        "commission": 7,
+        "cops": 0,
+        "cash": -6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "HIT THEM FIRST",
+      "effects": {
+        "family": 9,
+        "commission": -6,
+        "cops": 10,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "enemy_rival_family"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "heir_02",
+    "speaker": "A FERRARO SOLDIER",
+    "text": "I came without permission. Half my crew thinks your father's war died with him. The other half is loading a car.",
+    "left": {
+      "label": "SEND HIM BACK",
+      "effects": {
+        "family": 5,
+        "commission": -4,
+        "cops": 5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "HEAR HIM OUT",
+      "effects": {
+        "family": -7,
+        "commission": 8,
+        "cops": 0,
+        "cash": 4,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "enemy_rival_family"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": true
+  },
+  {
+    "id": "heir_03",
+    "speaker": "THE CONSIGLIERE",
+    "text": "The Commission never forgave the sit-down your father walked out of. You were fourteen years old. It has not once come up in your favour.",
+    "left": {
+      "label": "APOLOGISE FOR HIM",
+      "effects": {
+        "family": -9,
+        "commission": 11,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "HIS NAME STANDS",
+      "effects": {
+        "family": 10,
+        "commission": -10,
+        "cops": 0,
+        "cash": -4,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "enemy_commission"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "heir_04",
+    "speaker": "THE CONSIGLIERE",
+    "text": "You have a seat at the table. It is the one nearest the door, and nobody has looked at it in an hour.",
+    "left": {
+      "label": "SIT AND WAIT",
+      "effects": {
+        "family": -4,
+        "commission": 6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LEAVE EARLY",
+      "effects": {
+        "family": 7,
+        "commission": -8,
+        "cops": 3,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "enemy_commission"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "heir_05",
+    "speaker": "THE LAWYER",
+    "text": "The agent who could never break your father has your file now. His name is still on the cover. Yours is written underneath, in pen.",
+    "left": {
+      "label": "GIVE HIM SOMETHING",
+      "effects": {
+        "family": -5,
+        "commission": -6,
+        "cops": -10,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "GIVE HIM NOTHING",
+      "effects": {
+        "family": 8,
+        "commission": 0,
+        "cops": 12,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "enemy_feds"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "heir_06",
+    "speaker": "THE LAWYER",
+    "text": "A subpoena came this morning addressed to a dead man. They know he is dead. That is the whole message.",
+    "left": {
+      "label": "ANSWER IT",
+      "effects": {
+        "family": 0,
+        "commission": 4,
+        "cops": -7,
+        "cash": -12,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "IGNORE IT",
+      "effects": {
+        "family": 5,
+        "commission": 0,
+        "cops": 11,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "enemy_feds"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": true
+  },
+  {
+    "id": "heir_07",
+    "speaker": "THE DOCK STEWARD",
+    "text": "Your father told the local no. The men remember being told no. They are telling you now, and they are enjoying it.",
+    "left": {
+      "label": "PAY THE OLD RATE",
+      "effects": {
+        "family": 6,
+        "commission": 3,
+        "cops": 0,
+        "cash": -14,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "REPLACE THE LOCAL",
+      "effects": {
+        "family": -7,
+        "commission": 0,
+        "cops": 8,
+        "cash": 9,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "enemy_union"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "heir_08",
+    "speaker": "THE DOCK STEWARD",
+    "text": "Nothing has moved off pier nine in a week. Nobody is calling it a strike. Nobody is calling it anything at all.",
+    "left": {
+      "label": "WAIT THEM OUT",
+      "effects": {
+        "family": -4,
+        "commission": 5,
+        "cops": 0,
+        "cash": -13,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "BREAK IT",
+      "effects": {
+        "family": 7,
+        "commission": 0,
+        "cops": 11,
+        "cash": 8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "enemy_union"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "heir_09",
+    "speaker": "THE DETECTIVE",
+    "text": "Your father and I had an arrangement. I have kept my half of it every week since the funeral. You have not started keeping yours.",
+    "left": {
+      "label": "PAY HIM",
+      "effects": {
+        "family": 3,
+        "commission": 0,
+        "cops": -10,
+        "cash": -15,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "IT DIED WITH HIM",
+      "effects": {
+        "family": 5,
+        "commission": 0,
+        "cops": 13,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "debt_detective"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "heir_10",
+    "speaker": "THE DETECTIVE",
+    "text": "I retire in the spring. Thirty years, a pension that buys nothing, and one filing cabinet with your father's name across it.",
+    "left": {
+      "label": "SEE HIM OFF WELL",
+      "effects": {
+        "family": 0,
+        "commission": 0,
+        "cops": -9,
+        "cash": -18,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "WISH HIM LUCK",
+      "effects": {
+        "family": -3,
+        "commission": 0,
+        "cops": 12,
+        "cash": 4,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "debt_detective"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 7,
+    "once": true
+  },
+  {
+    "id": "heir_11",
+    "speaker": "THE CONGRESSMAN",
+    "text": "Your father put me in a seat I have not left in nine years. I never once had to ask him for anything. I am asking you.",
+    "left": {
+      "label": "GIVE HIM IT",
+      "effects": {
+        "family": 0,
+        "commission": 6,
+        "cops": -5,
+        "cash": -13,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "REMIND HIM WHO PAID",
+      "effects": {
+        "family": 4,
+        "commission": -7,
+        "cops": 6,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "debt_alderman"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "heir_12",
+    "speaker": "THE CONGRESSMAN",
+    "text": "There is a nephew. He does not need to do anything. He needs to be on a payroll that survives an audit.",
+    "left": {
+      "label": "PUT HIM ON",
+      "effects": {
+        "family": 0,
+        "commission": 5,
+        "cops": 7,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "NOT MY PAYROLL",
+      "effects": {
+        "family": 4,
+        "commission": -6,
+        "cops": 0,
+        "cash": 5,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "debt_alderman"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "heir_13",
+    "speaker": "THE BOOKMAKER",
+    "text": "Your father forgave a number nobody forgives. The man he forgave is at my window again, betting like someone who cannot lose.",
+    "left": {
+      "label": "FORGIVE IT AGAIN",
+      "effects": {
+        "family": 7,
+        "commission": -4,
+        "cops": 0,
+        "cash": -16,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "COLLECT EVERYTHING",
+      "effects": {
+        "family": -8,
+        "commission": 0,
+        "cops": 7,
+        "cash": 14,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "debt_bookmaker"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "heir_14",
+    "speaker": "THE BOOKMAKER",
+    "text": "I was under your father's arm for twenty years. Two men came Tuesday and asked whose arm I am under now. I did not have an answer for them.",
+    "left": {
+      "label": "GIVE HIM ONE",
+      "effects": {
+        "family": 9,
+        "commission": 0,
+        "cops": 7,
+        "cash": -6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LET HIM FIND OUT",
+      "effects": {
+        "family": -9,
+        "commission": 4,
+        "cops": 0,
+        "cash": 8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "debt_bookmaker"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": true
+  },
+  {
+    "id": "heir_15",
+    "speaker": "THE UNDERBOSS",
+    "text": "The bosses your father installed on the waterfront want to talk terms. They were his men. That is precisely the problem.",
+    "left": {
+      "label": "KEEP HIS TERMS",
+      "effects": {
+        "family": 6,
+        "commission": 4,
+        "cops": 0,
+        "cash": -10,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SET YOUR OWN",
+      "effects": {
+        "family": -7,
+        "commission": 0,
+        "cops": 5,
+        "cash": 11,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "debt_dock_bosses"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "heir_16",
+    "speaker": "THE UNDERBOSS",
+    "text": "A container went missing off the pier your father took by force. Every man on that dock remembers exactly how he took it.",
+    "left": {
+      "label": "EAT THE LOSS",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": 0,
+        "cash": -15,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "MAKE AN EXAMPLE",
+      "effects": {
+        "family": 8,
+        "commission": 0,
+        "cops": 10,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "debt_dock_bosses"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  }
+]

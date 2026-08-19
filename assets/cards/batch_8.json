@@ -1,0 +1,3844 @@
+[
+  {
+    "id": "b8_001",
+    "speaker": "AURELIO",
+    "text": "Two of your capos have each told me the other is short, on the same afternoon, and neither to you. They are not accusing each other — they are asking me which of them you would believe. Nobody had to ask that once.",
+    "left": {
+      "label": "SIT THEM BOTH DOWN IN FRONT OF ME",
+      "effects": {
+        "family": 8,
+        "commission": -7,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LET THEM GO ON WONDERING",
+      "effects": {
+        "family": -7,
+        "commission": 9,
+        "cops": 0,
+        "cash": 4,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_002",
+    "speaker": "AURELIO",
+    "text": "The Provenzanos want a sit-down about a route that was never theirs. They asked politely, which is what worries me, and through a man neither of us has met. It used to be a man we had both known thirty years.",
+    "left": {
+      "label": "GO, AND GO WITHOUT AN ARGUMENT",
+      "effects": {
+        "family": -8,
+        "commission": 12,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THERE IS NOTHING TO SIT ABOUT",
+      "effects": {
+        "family": 7,
+        "commission": -12,
+        "cops": 0,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": [
+        "commission_snubbed"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_003",
+    "speaker": "AURELIO",
+    "text": "Now, listen to me. Stop walking envelopes across this city. Put it in the mail. Nobody in this country has ever opened a letter without a judge, and the post office is the one part of the government your father trusted.",
+    "left": {
+      "label": "DO IT THE WAY HE DID IT",
+      "effects": {
+        "family": 4,
+        "commission": 0,
+        "cops": 9,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "WE CARRY IT, AND WE CARRY IT ONCE",
+      "effects": {
+        "family": -4,
+        "commission": 0,
+        "cops": -9,
+        "cash": -6,
+        "blood": 0
+      },
+      "setFlags": [
+        "aurelio_overruled"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 10,
+    "once": false
+  },
+  {
+    "id": "b8_004",
+    "speaker": "AURELIO",
+    "text": "There is a young man in Ridgewood answering questions that were put to somebody else. He is right four times in five, which is worse, because nobody checks the fifth. We had one man for that and he was sixty.",
+    "left": {
+      "label": "BRING HIM WHERE HE CAN BE HEARD",
+      "effects": {
+        "family": 8,
+        "commission": -6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SEND HIM BACK TO COLLECTING",
+      "effects": {
+        "family": -7,
+        "commission": 6,
+        "cops": 0,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_005",
+    "speaker": "AURELIO",
+    "text": "The lease on the funeral home is up and the building's owners want a name for the paper. Your father's name has been on it since 1951, and in nineteen years nobody has ever asked us for a name.",
+    "left": {
+      "label": "PUT MINE ON IT",
+      "effects": {
+        "family": 7,
+        "commission": 0,
+        "cops": 9,
+        "cash": -5,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THEN WE STAND SOMEWHERE ELSE",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": -8,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_006",
+    "speaker": "AURELIO",
+    "text": "A man asked whether the family would object if he sold his father's bakery outside the parish. He did not need my permission — he wanted to be told he was allowed to go. Nobody asked that question in 1950.",
+    "left": {
+      "label": "HE IS ALLOWED",
+      "effects": {
+        "family": -8,
+        "commission": 0,
+        "cops": 0,
+        "cash": 8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "TELL HIM WHAT HIS FATHER WOULD SAY",
+      "effects": {
+        "family": 10,
+        "commission": 6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_007",
+    "speaker": "AURELIO",
+    "text": "The insurance man came to the linen yard and counted eight trucks. The policy says seven. He has written seven down again and would like something for his arithmetic. They used to simply write down seven.",
+    "left": {
+      "label": "PAY HIM",
+      "effects": {
+        "family": 4,
+        "commission": 0,
+        "cops": -7,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LET HIM WRITE ELEVEN",
+      "effects": {
+        "family": -4,
+        "commission": 0,
+        "cops": 8,
+        "cash": 9,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 10,
+    "once": false
+  },
+  {
+    "id": "b8_008",
+    "speaker": "AURELIO",
+    "text": "The men have started bringing me things that are not counsel. One asked me to settle what he is owed, as though I kept money. Your father had a man for that and it was never me. I sent him to you; he came back.",
+    "left": {
+      "label": "EVERYTHING COMES TO ME FIRST",
+      "effects": {
+        "family": 7,
+        "commission": 6,
+        "cops": -4,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "YOU ANSWER THEM; THAT IS WHAT YOU ARE FOR",
+      "effects": {
+        "family": -8,
+        "commission": -6,
+        "cops": 0,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_009",
+    "speaker": "AURELIO",
+    "text": "The boy who drives me leaves the engine running outside the places I go, because he thinks that is what a driver does. He has done it at three doors this month. A driver used to be a man who had been inside first.",
+    "left": {
+      "label": "HE DRIVES SOMEBODY ELSE FROM MONDAY",
+      "effects": {
+        "family": -7,
+        "commission": 0,
+        "cops": -9,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "TEACH HIM, DO NOT MOVE HIM",
+      "effects": {
+        "family": 7,
+        "commission": -6,
+        "cops": 7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_010",
+    "speaker": "GIULIA",
+    "text": "Paolo came home with his lip split and would not say who did it. Then he told me, and then he asked me not to tell you, and I am telling you, and now he is going to know that I did.",
+    "left": {
+      "label": "I WILL SEE TO IT AND HE WILL NEVER KNOW HOW",
+      "effects": {
+        "family": 7,
+        "commission": -6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 8
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "HE SETTLES IT HIMSELF",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 4
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_011",
+    "speaker": "GIULIA",
+    "text": "Your mother telephoned to ask what we are doing at Christmas, and then telephoned Thursday and asked me again as though the first time had not happened. I did not tell her that. Somebody has to.",
+    "left": {
+      "label": "I WILL SAY IT TO HER MYSELF",
+      "effects": {
+        "family": 5,
+        "commission": 6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 10
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SHE IS EIGHTY, LET HER ASK TWICE",
+      "effects": {
+        "family": -6,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 4
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "concetta_dead"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_012",
+    "speaker": "GIULIA",
+    "text": "There is a woman at the school gate whose husband is away for nine years, and she has begun standing beside me every morning. She wants me to ask you something. She has not asked, and I have not moved.",
+    "left": {
+      "label": "FIND OUT WHAT SHE WANTS",
+      "effects": {
+        "family": 8,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "I DO NOT STAND AT THAT GATE ANY MORE",
+      "effects": {
+        "family": -8,
+        "commission": 9,
+        "cops": -4,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_013",
+    "speaker": "GIULIA",
+    "text": "I found four hundred dollars in the pocket of Paolo's good coat. He says a man at the club gave it to him to hold. He is eleven, and it did not occur to him that there was anything in that to tell me.",
+    "left": {
+      "label": "WHOEVER PUT IT THERE IS FINISHED HERE",
+      "effects": {
+        "family": 8,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 6
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THE BOY DOES NOT GO TO THAT CLUB AGAIN",
+      "effects": {
+        "family": -7,
+        "commission": -6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 9
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_014",
+    "speaker": "GIULIA",
+    "text": "Your sister sat in my kitchen two hours and did not ask for anything, and then at the door she asked whether there is money for the boy's teeth. Two hours, Nico. She sat there two hours first.",
+    "left": {
+      "label": "GIVE HER MORE THAN SHE ASKED FOR",
+      "effects": {
+        "family": 6,
+        "commission": 0,
+        "cops": 0,
+        "cash": -9,
+        "blood": 5
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "GIVE HER EXACTLY WHAT SHE ASKED FOR",
+      "effects": {
+        "family": -5,
+        "commission": 0,
+        "cops": 0,
+        "cash": -5,
+        "blood": 4
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "matty_dead"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_015",
+    "speaker": "GIULIA",
+    "text": "The parish has asked me onto the committee for the feast, which is how they ask you for the feast. I said I would think about it, because I wanted to be looking at your face when I told you.",
+    "left": {
+      "label": "SHE SAYS YES AND WE PAY FOR THE BAND",
+      "effects": {
+        "family": 6,
+        "commission": 9,
+        "cops": 4,
+        "cash": -8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SHE SAYS NO AND THEY ASK SOMEBODY ELSE",
+      "effects": {
+        "family": -6,
+        "commission": -8,
+        "cops": 0,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_016",
+    "speaker": "MATTY",
+    "text": "Boss, I took care of the thing with the fella at the lot. He's not going to say nothing to nobody. And I didn't have to do nothing to him either — I told him who I was. I said the name and he went white.",
+    "left": {
+      "label": "THAT NAME IS NOT YOURS TO SAY",
+      "effects": {
+        "family": 7,
+        "commission": 6,
+        "cops": -4,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LET HIM HAVE IT, IT WORKED",
+      "effects": {
+        "family": -4,
+        "commission": -9,
+        "cops": 7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "matty_dead",
+        "matty_pinched"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_017",
+    "speaker": "MATTY",
+    "text": "There's a kid at the club, sixteen, been sweeping up every night without anybody asking him to. I been letting him. He's got a mother and no father and I figured — I don't know what I figured. I like him.",
+    "left": {
+      "label": "HE SWEEPS AND THAT IS ALL HE EVER DOES",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "FIND SOMETHING FOR HIM",
+      "effects": {
+        "family": 7,
+        "commission": 0,
+        "cops": 4,
+        "cash": -5,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "matty_dead",
+        "matty_pinched"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_018",
+    "speaker": "MATTY",
+    "text": "So I'm at the Aqueduct and a guy I never met says he's a friend of yours and asks me to put five hundred on a horse for him. I put it on. It came in. Now he wants to buy me dinner Thursday.",
+    "left": {
+      "label": "FIND OUT WHO HE IS BEFORE YOU EAT",
+      "effects": {
+        "family": 6,
+        "commission": 8,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "EAT THE DINNER AND SAY NOTHING",
+      "effects": {
+        "family": -5,
+        "commission": -9,
+        "cops": 6,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "matty_dead",
+        "matty_pinched"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_019",
+    "speaker": "MATTY",
+    "text": "I hear the Ridgewood fellas have a card game Thursdays over the pork store and nobody ever said nothing to us about it. That's a room on our block, boss. I'm not saying nothing. I'm saying I heard it.",
+    "left": {
+      "label": "TAKE THE ROOM",
+      "effects": {
+        "family": 6,
+        "commission": -9,
+        "cops": 4,
+        "cash": 11,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "IT IS THEIR THURSDAY",
+      "effects": {
+        "family": -7,
+        "commission": 9,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "matty_dead",
+        "matty_pinched"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_020",
+    "speaker": "MATTY",
+    "text": "My mother wants to know why I don't come Sundays no more and I told her it's work. It ain't work. I don't want to sit there while she asks me what I do all week. Can you tell her something? Anything.",
+    "left": {
+      "label": "I WILL TELL HER SOMETHING",
+      "effects": {
+        "family": 6,
+        "commission": -6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 9
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "YOU SIT THERE AND YOU LET HER ASK",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 5
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "matty_dead",
+        "matty_pinched"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_021",
+    "speaker": "MATTY",
+    "text": "I got asked to stand outside a door Tuesday night and I stood there four hours and nobody told me whose door it was or what was behind it. I did it. I'd just like to have known. That's the whole thing.",
+    "left": {
+      "label": "YOU WILL BE TOLD, FROM NOW ON",
+      "effects": {
+        "family": 8,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "A MAN WHO NEEDS TO KNOW IS NOT STANDING THERE",
+      "effects": {
+        "family": -7,
+        "commission": 8,
+        "cops": -6,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "matty_dead",
+        "matty_pinched"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_022",
+    "speaker": "CONCETTA",
+    "text": "Nicola. The Grasso woman came to me because she could not come to you, and she has been twice now, and both times she brought something with her. I am not a door. Tell me whether I am a door.",
+    "left": {
+      "label": "YOU ARE NOT A DOOR — SEND THEM TO ME",
+      "effects": {
+        "family": 7,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "BETTER THEY GO TO YOU FIRST",
+      "effects": {
+        "family": -6,
+        "commission": 9,
+        "cops": 0,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "concetta_dead"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_023",
+    "speaker": "CONCETTA",
+    "text": "Your father came home and ate and said nothing, and for forty years I thought that was what a man was. Lately I have thought he was simply not telling me things. Sit down. Tell me one thing.",
+    "left": {
+      "label": "SIT DOWN AND TELL HER ONE TRUE THING",
+      "effects": {
+        "family": 5,
+        "commission": -6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 9
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "I AM ALREADY LATE, MAMA",
+      "effects": {
+        "family": -7,
+        "commission": 8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 4
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "concetta_dead"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_024",
+    "speaker": "CONCETTA",
+    "text": "There is a plate on my table on Sunday with nobody in the chair, and the men see it and the women see it, and I have started putting it out on purpose so that they do. Come, or tell me to stop.",
+    "left": {
+      "label": "I WILL BE THERE",
+      "effects": {
+        "family": 8,
+        "commission": 8,
+        "cops": -4,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "TELL HER TO STOP PUTTING IT OUT",
+      "effects": {
+        "family": -7,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 8
+      },
+      "setFlags": [
+        "concetta_silent"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "concetta_dead"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_025",
+    "speaker": "CONCETTA",
+    "text": "A man I do not know sent flowers to this house on your father's anniversary, with a card, in Italian, unsigned. The florist is on Metropolitan Avenue and he says the man paid in cash and did not stay.",
+    "left": {
+      "label": "FIND OUT WHO SENT THEM",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LEAVE IT — IT IS A KINDNESS",
+      "effects": {
+        "family": -6,
+        "commission": 9,
+        "cops": -6,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "concetta_dead"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_026",
+    "speaker": "CONCETTA",
+    "text": "Your wife came here Tuesday and asked me what your father did when he was frightened. I told her he ate, and slept, and said nothing. She wanted a better answer than that. There is not a better one.",
+    "left": {
+      "label": "ASK HER WHAT SHE IS FRIGHTENED OF",
+      "effects": {
+        "family": 5,
+        "commission": -6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 8
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "I DO NOT DISCUSS MY HOUSE WITH MY MOTHER",
+      "effects": {
+        "family": -7,
+        "commission": 8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 5
+      },
+      "setFlags": [
+        "concetta_silent"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "concetta_dead"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_027",
+    "speaker": "DUKE",
+    "text": "Boss, the Astoria route wants a second truck and they'll pay for the truck themselves. That's four hundred a week to us for saying yes, and the only thing it costs is that there's a second truck.",
+    "left": {
+      "label": "SAY YES",
+      "effects": {
+        "family": 4,
+        "commission": 0,
+        "cops": 6,
+        "cash": 12,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "ONE TRUCK, THE WAY WE AGREED",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": -6,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "duke_dead",
+        "duke_broke_off"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_028",
+    "speaker": "DUKE",
+    "text": "I've a fella wants to put money into the vending — real money, clean, his brother-in-law's an accountant out in Garden City. He doesn't want a piece of anything else. He wants his name off it, that's all.",
+    "left": {
+      "label": "TAKE IT",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": 6,
+        "cash": 11,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "WE DO NOT HOLD OTHER PEOPLE'S NAMES",
+      "effects": {
+        "family": -7,
+        "commission": 9,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "duke_dead",
+        "duke_broke_off"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_029",
+    "speaker": "DUKE",
+    "text": "One of mine got married Saturday and half the Provenzano crew was at the reception, and they gave. I'm not telling you it's nothing. I'm telling you it happened and that you're hearing it from me.",
+    "left": {
+      "label": "THAT IS WHY I KEEP YOU",
+      "effects": {
+        "family": 8,
+        "commission": -8,
+        "cops": -4,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "duke_proven_loyal"
+      ]
+    },
+    "right": {
+      "label": "WHOSE WEDDING WAS IT, EXACTLY",
+      "effects": {
+        "family": -7,
+        "commission": 9,
+        "cops": 4,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "duke_warned"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "duke_dead",
+        "duke_broke_off"
+      ]
+    },
+    "weight": 10,
+    "once": false
+  },
+  {
+    "id": "b8_030",
+    "speaker": "DUKE",
+    "text": "The Friday count is going to be light and I'd rather say it than have it counted. Two of my corners are gone — not taken, gone. They knocked the buildings down. There is nothing standing to collect from.",
+    "left": {
+      "label": "THAT IS THE CITY, NOT YOU",
+      "effects": {
+        "family": 7,
+        "commission": -6,
+        "cops": 0,
+        "cash": -8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "FIND ME THE DIFFERENCE SOMEWHERE ELSE",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": 6,
+        "cash": 9,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "duke_dead",
+        "duke_broke_off"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_031",
+    "speaker": "UNCLE SALLY",
+    "text": "Kid. There's a wake Thursday for a man who did eleven years and never once put his hand out, and the family that owed him is not going. Somebody out of this house is going to be standing in that room.",
+    "left": {
+      "label": "I GO MYSELF",
+      "effects": {
+        "family": 8,
+        "commission": 8,
+        "cops": 7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SEND FLOWERS AND A NAME",
+      "effects": {
+        "family": -7,
+        "commission": -8,
+        "cops": -6,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "sally_dead",
+        "sally_moved",
+        "house_split"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_032",
+    "speaker": "UNCLE SALLY",
+    "text": "Your father had a rule about a man who borrows from two of us at once. You find out which of us he asked first, and that one decides. I have the name in my pocket. I have not decided anything.",
+    "left": {
+      "label": "YOU DECIDE IT",
+      "effects": {
+        "family": 7,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "sally_backed"
+      ]
+    },
+    "right": {
+      "label": "BRING HIM TO ME",
+      "effects": {
+        "family": -6,
+        "commission": 9,
+        "cops": 0,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": [
+        "sally_humiliated"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "sally_dead",
+        "sally_moved",
+        "house_split"
+      ]
+    },
+    "weight": 10,
+    "once": false
+  },
+  {
+    "id": "b8_033",
+    "speaker": "UNCLE SALLY",
+    "text": "There are four men out at Green Haven from this house and their envelopes have got smaller every year since your father. Not one of them has complained. That is not the same thing as nobody noticing.",
+    "left": {
+      "label": "THE ENVELOPES GO BACK UP",
+      "effects": {
+        "family": 10,
+        "commission": 0,
+        "cops": -4,
+        "cash": -10,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THEY ARE SMALLER BECAUSE EVERYTHING IS",
+      "effects": {
+        "family": -8,
+        "commission": -8,
+        "cops": 0,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "sally_dead",
+        "sally_moved",
+        "house_split"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_034",
+    "speaker": "CAPT. KIERNAN",
+    "text": "There's a new lieutenant on days driving past your club twice a shift writing plate numbers in a book. He's not mine. He could be somebody's, but he'd want to be asked by somebody, and it can't be me.",
+    "left": {
+      "label": "ASK HIM",
+      "effects": {
+        "family": 0,
+        "commission": -6,
+        "cops": -7,
+        "cash": -10,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LET HIM WRITE",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": 8,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "kiernan_gone",
+        "kiernan_cold"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_035",
+    "speaker": "CAPT. KIERNAN",
+    "text": "My daughter's making her confirmation and the whole precinct's coming, and I'd love to see you there. I would. And I'd hate for anybody to have to explain afterwards who the fella in the good coat was.",
+    "left": {
+      "label": "GO, AND BE SEEN GOING",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": 8,
+        "cash": -5,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SEND SOMETHING AND STAY AWAY",
+      "effects": {
+        "family": -5,
+        "commission": 8,
+        "cops": -7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "kiernan_gone",
+        "kiernan_cold"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_036",
+    "speaker": "CAPT. KIERNAN",
+    "text": "Between us — there's a fella downtown pulling files on the Knickerbocker Avenue arrests going back to sixty-four. He hasn't asked me for anything. That's the part I wanted you to have. He hasn't asked.",
+    "left": {
+      "label": "FIND OUT WHAT HE IS FOR",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": 6,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "WE DO NOTHING, AND WE DO IT QUIETLY",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": -8,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "kiernan_gone",
+        "kiernan_cold"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_037",
+    "speaker": "DET. RANIERI",
+    "text": "I was at St. Barbara's Saturday for a funeral — not one of yours, a teacher of mine. You were three rows behind me. I did not turn round, and I would like you to know that I noticed that I did not.",
+    "left": {
+      "label": "SPEAK TO HIM NEXT TIME",
+      "effects": {
+        "family": -5,
+        "commission": -8,
+        "cops": -7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THERE IS NO NEXT TIME",
+      "effects": {
+        "family": 6,
+        "commission": 8,
+        "cops": 7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "ranieri_dead",
+        "ranieri_family_touched"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_038",
+    "speaker": "DET. RANIERI",
+    "text": "Your nephew's name is on a card in a drawer at the Eight-Three with nothing written underneath it. I did not put it there and I cannot take it out. I am telling you because somebody will tell you worse.",
+    "left": {
+      "label": "GET HIM OUT OF THE CITY FOR A MONTH",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": -8,
+        "cash": -6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "A CARD IN A DRAWER IS A CARD IN A DRAWER",
+      "effects": {
+        "family": 6,
+        "commission": 6,
+        "cops": 6,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "ranieri_dead",
+        "ranieri_family_touched",
+        "matty_dead"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_039",
+    "speaker": "FALLON",
+    "text": "Don Marchetti, I've eleven hundred men on that book and six hundred of them worked a day this month. Six hundred. I need you to take the hiring hall for a season and I need you not to take it for good.",
+    "left": {
+      "label": "TAKE IT FOR A SEASON",
+      "effects": {
+        "family": 5,
+        "commission": -8,
+        "cops": 6,
+        "cash": 11,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "HE KEEPS HIS HALL",
+      "effects": {
+        "family": -7,
+        "commission": 9,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "fallon_dead",
+        "fallon_replaced",
+        "docks_taken"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_040",
+    "speaker": "FALLON",
+    "text": "There's a fella from the Labor Department sitting at the back of my meetings taking notes and smiling at everybody, and I've let him, because throwing him out is the only part of it that would be a story.",
+    "left": {
+      "label": "HE SITS THERE AND HEARS NOTHING WORTH HEARING",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": 5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "feds_active"
+      ]
+    },
+    "right": {
+      "label": "THE MEETINGS MOVE AND SO DOES HE",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": -7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "fallon_dead",
+        "fallon_replaced"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_041",
+    "speaker": "DON BRACA",
+    "text": "Your father sat where you are sitting and told me a thing I have never repeated and am not going to repeat now. I would only like you to know that I could. Now. This business out at the airport.",
+    "left": {
+      "label": "GIVE HIM THE AIRPORT PIECE",
+      "effects": {
+        "family": -5,
+        "commission": 12,
+        "cops": 0,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": [
+        "braca_owes_you"
+      ]
+    },
+    "right": {
+      "label": "THE AIRPORT IS OURS",
+      "effects": {
+        "family": 7,
+        "commission": -12,
+        "cops": 0,
+        "cash": 8,
+        "blood": 0
+      },
+      "setFlags": [
+        "braca_insulted"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "braca_dead"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_042",
+    "speaker": "DON BRACA",
+    "text": "There is a young man at my table now who has asked me three times what the arrangement with your family is, and I have told him three times that there is no arrangement, there is a friendship.",
+    "left": {
+      "label": "LET HIM COME AND SEE FOR HIMSELF",
+      "effects": {
+        "family": -6,
+        "commission": 9,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "HE CAN ASK ME A FOURTH TIME",
+      "effects": {
+        "family": 7,
+        "commission": -11,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "braca_dead"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_043",
+    "speaker": "MOE WILLS",
+    "text": "Don Marchetti. Two of your young men came into a store on Lewis Avenue and asked the man behind the counter who he pays. He told them. They wrote it down. I would like to know who told them to bring a book.",
+    "left": {
+      "label": "THEY ARE PULLED BACK TODAY",
+      "effects": {
+        "family": -7,
+        "commission": 9,
+        "cops": -4,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "A MAN WHO PAYS SHOULD EXPECT TO BE ASKED",
+      "effects": {
+        "family": 7,
+        "commission": -9,
+        "cops": 5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "wills_dead",
+        "wills_war"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_044",
+    "speaker": "MOE WILLS",
+    "text": "My people have started asking me the question I have been putting off, which is what happens to the tax when I am not here. I am fifty-eight. I would like to tell them something on Sunday.",
+    "left": {
+      "label": "WHOEVER FOLLOWS YOU PAYS WHAT YOU PAY",
+      "effects": {
+        "family": 7,
+        "commission": 9,
+        "cops": 5,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "PUT IT IN WRITING, THE TWO OF US",
+      "effects": {
+        "family": -6,
+        "commission": -11,
+        "cops": -5,
+        "cash": -5,
+        "blood": 0
+      },
+      "setFlags": [
+        "wills_partner"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "wills_dead",
+        "wills_war"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_045",
+    "speaker": "ANGELO",
+    "text": "There is a man in the Ridgewood crew who was a boy when I went away and he has taken to calling me the old fella. I have said nothing to him. I am telling you now so that when I do, you heard it here.",
+    "left": {
+      "label": "YOU SETTLE IT YOURSELF",
+      "effects": {
+        "family": 7,
+        "commission": -8,
+        "cops": 5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "I SETTLE IT, AND EVERYBODY SEES ME DO IT",
+      "effects": {
+        "family": -6,
+        "commission": 9,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "angelo_dead",
+        "angelo_flipped"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_046",
+    "speaker": "ANGELO",
+    "text": "I have been offered a shift at a garage in Maspeth, on the books, forty a week. I am going to say no. I wanted to say it to you first, so nobody has to come and tell you I was seen in a garage in Maspeth.",
+    "left": {
+      "label": "SAY YES AND TAKE THE FORTY",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": -7,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THERE IS SOMETHING HERE FOR YOU",
+      "effects": {
+        "family": 8,
+        "commission": 0,
+        "cops": 5,
+        "cash": -7,
+        "blood": 0
+      },
+      "setFlags": [
+        "angelo_paid"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "angelo_dead",
+        "angelo_flipped"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_047",
+    "speaker": "ROSA",
+    "text": "I am sorry, I know you did not come in here for this. The man who does my deliveries has been told not to come to me any more, and he would not say by who, and I did not ask him a second time.",
+    "left": {
+      "label": "FIND OUT WHO TOLD HIM",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THAT IS BETWEEN HER AND HER SUPPLIER",
+      "effects": {
+        "family": -7,
+        "commission": 8,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "rosa_gone",
+        "rosa_place_taken",
+        "rosa_place_burned"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_048",
+    "speaker": "ROSA",
+    "text": "Your wife telephoned to book the upstairs for a christening and I said yes before I remembered the Ferrante party is that day. I will move them. I only wanted you to hear from me that I am moving them.",
+    "left": {
+      "label": "LET THE FERRANTES HAVE THEIR DAY",
+      "effects": {
+        "family": 6,
+        "commission": 9,
+        "cops": 0,
+        "cash": -5,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SHE MOVES THEM",
+      "effects": {
+        "family": -5,
+        "commission": -9,
+        "cops": 0,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "rosa_gone",
+        "rosa_place_taken",
+        "rosa_place_burned"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_049",
+    "speaker": "ADLER",
+    "text": "If they ask me for the vending books I have to give them the vending books, and the vending books are correct. That is the trouble with them. They are so correct that a man will want to know who made them so.",
+    "left": {
+      "label": "LET THEM BE A LITTLE UNTIDY FROM NOW ON",
+      "effects": {
+        "family": 5,
+        "commission": 0,
+        "cops": -8,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "CORRECT IS CORRECT",
+      "effects": {
+        "family": -5,
+        "commission": 0,
+        "cops": 7,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "adler_ran",
+        "adler_dead"
+      ]
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_050",
+    "speaker": "FATHER COLLA",
+    "text": "Your men have started coming to the eight o'clock instead of the ten, because the eight is short and nobody speaks to anybody afterwards. I have said nothing about it. I would like to know whether I should.",
+    "left": {
+      "label": "SAY SOMETHING",
+      "effects": {
+        "family": -7,
+        "commission": 8,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LET THEM COME AND GO AS THEY LIKE",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": 5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "colla_gone"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_051",
+    "speaker": "DR. NARDI",
+    "text": "A man came to my surgery this morning with his hand wrapped in a shirt, gave me a name that was not his and paid me in tens. He was not one of yours. I am telling you because he knew to come to me.",
+    "left": {
+      "label": "FIND OUT WHO SENT HIM HERE",
+      "effects": {
+        "family": 5,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "YOU TREAT WHOEVER COMES; THAT IS ALL",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": -7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "nardi_gone",
+        "nardi_talked"
+      ]
+    },
+    "weight": 8,
+    "once": false
+  },
+  {
+    "id": "b8_052",
+    "speaker": "THE STREET",
+    "text": "Two women stopped the priest outside the church to ask whether it is true that the men who stand outside the club all day are paid to stand there. He said that he did not know. They believed him.",
+    "left": {
+      "label": "PUT THEM SOMEWHERE ELSE TO STAND",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": -7,
+        "cash": -5,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THEY HAVE STOOD THERE FORTY YEARS",
+      "effects": {
+        "family": 7,
+        "commission": 6,
+        "cops": 6,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 9,
+    "once": false
+  },
+  {
+    "id": "b8_053",
+    "speaker": "AURELIO",
+    "text": "A man of ours was found in a car on Cooper Avenue with his own crew's money still in his coat. It was not another family. It is one of eleven and all eleven are in that room. We would have known by lunchtime once.",
+    "left": {
+      "label": "THE ELEVEN SIT IN THERE UNTIL SOMEBODY SAYS IT",
+      "effects": {
+        "family": -18,
+        "commission": 0,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "WE BURY HIM AND WE ASK NOBODY ANYTHING",
+      "effects": {
+        "family": -15,
+        "commission": -7,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 46,
+    "once": false,
+    "vice": true
+  },
+  {
+    "id": "b8_054",
+    "speaker": "DET. RANIERI",
+    "text": "Somebody put a man through the window of a bar on Wyckoff at four in the afternoon and eleven people watched it happen. I have eleven statements on my desk. I am not asking you anything. I am telling you eleven.",
+    "left": {
+      "label": "NOT ONE OF OURS SAYS A WORD",
+      "effects": {
+        "family": 0,
+        "commission": 0,
+        "cops": 18,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "FIND THE ELEVEN AND SIT WITH THEM",
+      "effects": {
+        "family": -8,
+        "commission": 0,
+        "cops": 15,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "ranieri_dead",
+        "ranieri_family_touched"
+      ]
+    },
+    "weight": 45,
+    "once": false,
+    "vice": true
+  },
+  {
+    "id": "b8_055",
+    "speaker": "FALLON",
+    "text": "The welfare fund has come in eleven thousand over what it owes out and the trustees have to move it before the quarter closes. It cannot sit there. It is going somewhere and you are going to be asked where.",
+    "left": {
+      "label": "IT COMES TO US AND IT COMES CLEAN",
+      "effects": {
+        "family": 0,
+        "commission": 0,
+        "cops": 0,
+        "cash": 18,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "IT GOES THROUGH THE LOCAL'S OWN BOOKS",
+      "effects": {
+        "family": 0,
+        "commission": 0,
+        "cops": 8,
+        "cash": 15,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "fallon_dead",
+        "fallon_replaced"
+      ]
+    },
+    "weight": 47,
+    "once": false,
+    "vice": true
+  },
+  {
+    "id": "b8_056",
+    "speaker": "CONCETTA",
+    "text": "There is nobody in that room now who will say no to you, and you have noticed, and I think you like it. I am eighty. I am telling you the thing he would have told you, and it should not have to be me.",
+    "left": {
+      "label": "ASK HER WHAT SHE THINKS, AND THEN DO IT",
+      "effects": {
+        "family": 7,
+        "commission": 9,
+        "cops": 0,
+        "cash": 0,
+        "blood": 9
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SHE IS NOT A CONSIGLIERE",
+      "effects": {
+        "family": -7,
+        "commission": -9,
+        "cops": 0,
+        "cash": 0,
+        "blood": 5
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "aurelio_dead"
+      ],
+      "excludesFlags": [
+        "concetta_dead"
+      ]
+    },
+    "weight": 25,
+    "once": true
+  },
+  {
+    "id": "b8_057",
+    "speaker": "UNCLE SALLY",
+    "text": "Kid, four rulings came to me this month and I gave four, and every one of them was right, and not one of them was mine to give. Somebody has to tell me to stop. Nobody has. That is what I am asking you.",
+    "left": {
+      "label": "YOU GO ON GIVING THEM",
+      "effects": {
+        "family": 8,
+        "commission": -9,
+        "cops": -4,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "sally_backed"
+      ]
+    },
+    "right": {
+      "label": "THEY COME TO ME NOW",
+      "effects": {
+        "family": -7,
+        "commission": 9,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "sally_humiliated"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "aurelio_dead"
+      ],
+      "excludesFlags": [
+        "sally_dead",
+        "sally_moved",
+        "house_split"
+      ]
+    },
+    "weight": 26,
+    "once": true
+  },
+  {
+    "id": "b8_058",
+    "speaker": "ADLER",
+    "text": "There is nobody left who remembers why we do half of it this way, and they have started asking me. I am not the man for that. I know what things cost. I have never once known what they are for.",
+    "left": {
+      "label": "YOU ARE THE MAN FOR IT NOW",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": 6,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "NOBODY ASKS THE BOOKKEEPER WHY",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": -6,
+        "cash": -5,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "aurelio_dead"
+      ],
+      "excludesFlags": [
+        "adler_ran",
+        "adler_dead"
+      ]
+    },
+    "weight": 24,
+    "once": true
+  },
+  {
+    "id": "b8_059",
+    "speaker": "DET. RANIERI",
+    "text": "I came to the church for your mother. Mine knew her forty years. I am not working today, and every man in that room has now watched me stand here talking to you for a minute and a half.",
+    "left": {
+      "label": "LET THEM WATCH",
+      "effects": {
+        "family": -7,
+        "commission": -9,
+        "cops": 7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "WALK HIM TO THE DOOR AND SHAKE HIS HAND THERE",
+      "effects": {
+        "family": 7,
+        "commission": 8,
+        "cops": -6,
+        "cash": 0,
+        "blood": 5
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "concetta_dead"
+      ],
+      "excludesFlags": [
+        "ranieri_dead",
+        "ranieri_family_touched"
+      ]
+    },
+    "weight": 25,
+    "once": true
+  },
+  {
+    "id": "b8_060",
+    "speaker": "MATTY",
+    "text": "They gave me her chair to carry out and I carried it out and I put it in a truck. Nobody said nothing to me the whole day, boss. I'm not asking for nothing. Was I supposed to say something?",
+    "left": {
+      "label": "YOU DID THE RIGHT THING",
+      "effects": {
+        "family": 7,
+        "commission": 6,
+        "cops": 0,
+        "cash": 0,
+        "blood": 6
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THERE IS NOTHING TO SAY",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 8
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "concetta_dead"
+      ],
+      "excludesFlags": [
+        "matty_dead",
+        "matty_pinched"
+      ]
+    },
+    "weight": 24,
+    "once": true
+  },
+  {
+    "id": "b8_061",
+    "speaker": "AURELIO",
+    "text": "Twenty-two years of this family's arithmetic walked out of an office on Flushing Avenue, and I do not know what he took and I do not know what he left. I would like to be told which of those frightens you more.",
+    "left": {
+      "label": "WE FIND HIM",
+      "effects": {
+        "family": 6,
+        "commission": 0,
+        "cops": 7,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "ASSUME HE TOOK EVERYTHING AND START AGAIN",
+      "effects": {
+        "family": -5,
+        "commission": 0,
+        "cops": -7,
+        "cash": -7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "adler_ran"
+      ],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 26,
+    "once": true
+  },
+  {
+    "id": "b8_062",
+    "speaker": "DUKE",
+    "text": "Boss, since the ruling I've had four men out of other crews come asking me for work, and two of them are your uncle's. I've answered nobody. I'd like to be told the answer before I give the wrong one.",
+    "left": {
+      "label": "THEY STAY WHERE THEY ARE",
+      "effects": {
+        "family": 7,
+        "commission": 8,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "TAKE WHOEVER COMES",
+      "effects": {
+        "family": -8,
+        "commission": 0,
+        "cops": 6,
+        "cash": 11,
+        "blood": 0
+      },
+      "setFlags": [
+        "duke_dope"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "dope_sanctioned"
+      ],
+      "excludesFlags": [
+        "duke_dead",
+        "duke_broke_off",
+        "sally_dead"
+      ]
+    },
+    "weight": 25,
+    "once": true
+  },
+  {
+    "id": "b8_063",
+    "speaker": "MATTY",
+    "text": "There's a fella been parked on Himrod since Sunday and I made him. I know the face. He's not theirs, boss. He's one of ours, he's one of your uncle's, and he is sitting there watching our door.",
+    "left": {
+      "label": "GO AND ASK HIM WHO SENT HIM",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": 5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "EVERY DOOR IS BEING WATCHED THIS WEEK",
+      "effects": {
+        "family": -7,
+        "commission": 9,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "at_war"
+      ],
+      "excludesFlags": [
+        "matty_dead",
+        "matty_pinched",
+        "sally_dead",
+        "sally_moved"
+      ]
+    },
+    "weight": 24,
+    "once": true
+  },
+  {
+    "id": "b8_064",
+    "speaker": "CAPT. KIERNAN",
+    "text": "I want to be straight with you. Whatever that is downtown, it isn't mine, and there's nobody in my building I can put on it. I'll take whatever you give me and I'll be no use to you at all, and I'd rather say so.",
+    "left": {
+      "label": "HE TAKES IT ANYWAY",
+      "effects": {
+        "family": 5,
+        "commission": 0,
+        "cops": -5,
+        "cash": -10,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "HE TAKES NOTHING UNTIL HE IS USEFUL",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": 7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "kiernan_refused"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "feds_active"
+      ],
+      "excludesFlags": [
+        "kiernan_gone",
+        "kiernan_cold"
+      ]
+    },
+    "weight": 26,
+    "once": true
+  },
+  {
+    "id": "b8_065",
+    "speaker": "GIULIA",
+    "text": "The same car has been at the end of the street four mornings and Anna waves at it now. She thinks they are friends of yours. I have not told her that they are not, because I do not know what to tell her instead.",
+    "left": {
+      "label": "TELL HER THE TRUTH",
+      "effects": {
+        "family": -5,
+        "commission": 0,
+        "cops": -6,
+        "cash": 0,
+        "blood": 10
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LET HER WAVE",
+      "effects": {
+        "family": 6,
+        "commission": 0,
+        "cops": 5,
+        "cash": 0,
+        "blood": 5
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "ranieri_watching"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 27,
+    "once": true
+  },
+  {
+    "id": "b8_066",
+    "speaker": "UNCLE SALLY",
+    "text": "Kid, there are men who have waited eleven years for a chair and men who have waited two, and the two-year men are the ones earning. Your father took the eleven. I am not telling you he was right.",
+    "left": {
+      "label": "THE OLD ONES GO FIRST",
+      "effects": {
+        "family": 7,
+        "commission": 8,
+        "cops": 0,
+        "cash": -5,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THE EARNERS GO FIRST",
+      "effects": {
+        "family": -8,
+        "commission": -8,
+        "cops": 0,
+        "cash": 11,
+        "blood": 0
+      },
+      "setFlags": [
+        "sally_humiliated"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "books_open"
+      ],
+      "excludesFlags": [
+        "sally_dead",
+        "sally_moved",
+        "house_split"
+      ]
+    },
+    "weight": 25,
+    "once": true
+  },
+  {
+    "id": "b8_067",
+    "speaker": "GIULIA",
+    "text": "I have had a man sitting in my kitchen every night for three weeks and he is very polite and he eats what I put in front of him, and my children have stopped asking who he is. That is what I came to say.",
+    "left": {
+      "label": "HE STAYS UNTIL I SAY OTHERWISE",
+      "effects": {
+        "family": 6,
+        "commission": 0,
+        "cops": 5,
+        "cash": -5,
+        "blood": 8
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THE HOUSE GOES BACK TO BEING A HOUSE",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": -6,
+        "cash": 6,
+        "blood": 4
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "giulia_home_touched"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 26,
+    "once": true
+  },
+  {
+    "id": "b8_068",
+    "speaker": "DET. RANIERI",
+    "text": "Walter Kiernan bought a house in Massapequa in March. I know what he earns because I earn it too. I am not going to do anything about it. I wanted you to know that I know what it costs to be his friend.",
+    "left": {
+      "label": "NOTHING CHANGES",
+      "effects": {
+        "family": 5,
+        "commission": 0,
+        "cops": 7,
+        "cash": -7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "KIERNAN IS TOLD HE WAS SEEN",
+      "effects": {
+        "family": -6,
+        "commission": -8,
+        "cops": -6,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "kiernan_price_up"
+      ],
+      "excludesFlags": [
+        "ranieri_dead",
+        "ranieri_family_touched",
+        "kiernan_gone"
+      ]
+    },
+    "weight": 25,
+    "once": true
+  },
+  {
+    "id": "b8_069",
+    "speaker": "FALLON",
+    "text": "You've the hall and I've a desk in it, and the men still come to me first and I still send them to you. I'd like to be told whether I'm meant to go on doing that or whether I'm meant to have stopped.",
+    "left": {
+      "label": "YOU GO ON DOING IT",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": -4,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "THEY COME TO ME NOW",
+      "effects": {
+        "family": -7,
+        "commission": -8,
+        "cops": 5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "docks_taken"
+      ],
+      "excludesFlags": [
+        "fallon_dead"
+      ]
+    },
+    "weight": 24,
+    "once": true
+  },
+  {
+    "id": "b8_070",
+    "speaker": "DON BRACA",
+    "text": "There is a man in Bed-Stuy who is at your table as a partner and at ours as a tax, and both of those things cannot go on being true. Nobody has said this to you before. I am saying it once, warmly.",
+    "left": {
+      "label": "HE IS A PARTNER AND HE IS SAID TO BE ONE",
+      "effects": {
+        "family": 7,
+        "commission": -12,
+        "cops": 0,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "HE IS WHAT HE HAS ALWAYS BEEN",
+      "effects": {
+        "family": -6,
+        "commission": 11,
+        "cops": 0,
+        "cash": -6,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "wills_partner"
+      ],
+      "excludesFlags": [
+        "braca_dead"
+      ]
+    },
+    "weight": 26,
+    "once": true
+  },
+  {
+    "id": "b8_071",
+    "speaker": "DUKE",
+    "text": "Nobody's earning. Four corners are shut, the trucks aren't moving, and I'm still paying eleven men to sit in a room and not go home. That money goes out Friday whichever way you tell me to do it.",
+    "left": {
+      "label": "THE MEN GET PAID IN FULL",
+      "effects": {
+        "family": 0,
+        "commission": 0,
+        "cops": 0,
+        "cash": -18,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "HALF NOW AND THE REST WHEN IT IS FINISHED",
+      "effects": {
+        "family": -8,
+        "commission": 0,
+        "cops": 0,
+        "cash": -15,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "at_war"
+      ],
+      "excludesFlags": [
+        "duke_dead",
+        "duke_broke_off"
+      ]
+    },
+    "weight": 46,
+    "once": true,
+    "vice": true
+  },
+  {
+    "id": "b8_072",
+    "speaker": "ADLER",
+    "text": "They have asked for four years of the linen company's ledgers and I am going to give them four years of ledgers. Everything that is not in those four years has to be out of that office by Thursday.",
+    "left": {
+      "label": "IT BURNS, AND WE START THE BOOKS AGAIN",
+      "effects": {
+        "family": 0,
+        "commission": 0,
+        "cops": -18,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "IT GOES TO A HOUSE IN FOREST HILLS AND SITS",
+      "effects": {
+        "family": 0,
+        "commission": 0,
+        "cops": -15,
+        "cash": -8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "feds_active"
+      ],
+      "excludesFlags": [
+        "adler_ran",
+        "adler_dead"
+      ]
+    },
+    "weight": 47,
+    "once": true,
+    "vice": true
+  },
+  {
+    "id": "b8_073",
+    "speaker": "UNCLE SALLY",
+    "text": "Since the ruling, kid, every man in this house has decided you are on his side, because every man in this house wanted it. They are closing round you. I have never seen it happen this fast and I do not like the speed.",
+    "left": {
+      "label": "LET THEM",
+      "effects": {
+        "family": 18,
+        "commission": 0,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "TELL THEM OUT LOUD THAT IT IS TEMPORARY",
+      "effects": {
+        "family": 15,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "dope_sanctioned"
+      ],
+      "excludesFlags": [
+        "sally_dead",
+        "sally_moved",
+        "house_split"
+      ]
+    },
+    "weight": 45,
+    "once": true,
+    "vice": true
+  },
+  {
+    "id": "b8_074",
+    "speaker": "GIULIA",
+    "text": "Every family in this city knows somebody fired into my kitchen and that nothing has happened since. Your mother's friends telephone me about it. They ask after the children first and then they ask about that.",
+    "left": {
+      "label": "IT IS OLD NEWS AND WE LET IT GO ON BEING",
+      "effects": {
+        "family": 0,
+        "commission": -18,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "IT IS ANSWERED NOW, LATE",
+      "effects": {
+        "family": 0,
+        "commission": -15,
+        "cops": 8,
+        "cash": 0,
+        "blood": 8
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "giulia_home_touched"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 48,
+    "once": true,
+    "vice": true
+  },
+  {
+    "id": "b8_075",
+    "speaker": "MOE WILLS",
+    "text": "The man your nephew killed had a mother, and she has been paid every month for a year, by me, and I have never sent you the bill. Three families know that I did that, and all three think better of you for it.",
+    "left": {
+      "label": "SAY NOTHING AND LET THEM GO ON THINKING IT",
+      "effects": {
+        "family": 0,
+        "commission": 18,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "PAY HIM BACK EVERY DOLLAR, IN FRONT OF THEM",
+      "effects": {
+        "family": 0,
+        "commission": 15,
+        "cops": 0,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "matty_killed_wrong"
+      ],
+      "excludesFlags": [
+        "wills_dead",
+        "wills_war"
+      ]
+    },
+    "weight": 46,
+    "once": true,
+    "vice": true
+  },
+  {
+    "id": "b8_076",
+    "speaker": "DUKE",
+    "text": "Boss — Bushwick took in more last quarter than the other two crews together. I know the number because I worked it out myself, and I'm telling you I worked it out rather than have somebody else tell you I did.",
+    "left": {
+      "label": "HE IS TOLD NOW WHAT HIS PIECE WILL BE",
+      "effects": {
+        "family": 8,
+        "commission": -8,
+        "cops": 0,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": [
+        "bushwick_number",
+        "duke_proven_loyal"
+      ]
+    },
+    "right": {
+      "label": "A NUMBER SAID ALOUD IS A NUMBER SOMEBODY REPEATS",
+      "effects": {
+        "family": -7,
+        "commission": 9,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "bushwick_number",
+        "duke_warned"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "duke_dead",
+        "duke_broke_off"
+      ]
+    },
+    "weight": 13,
+    "once": true,
+    "chain": {
+      "id": "b8_076",
+      "beat": 1
+    }
+  },
+  {
+    "id": "b8_077",
+    "speaker": "UNCLE SALLY",
+    "text": "Kid. Three of Bushwick's men were at a christening in Corona for a Provenzano grandchild and Duke was not. Either he is losing his crew or he is keeping his hands clean, and from here those look the same.",
+    "left": {
+      "label": "PUT ONE OF OURS INSIDE THAT CREW",
+      "effects": {
+        "family": -7,
+        "commission": 8,
+        "cops": 5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "bushwick_hands",
+        "sally_backed"
+      ]
+    },
+    "right": {
+      "label": "ASK HIM TO HIS FACE, IN FRONT OF NOBODY",
+      "effects": {
+        "family": 7,
+        "commission": -9,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "bushwick_hands",
+        "sally_humiliated"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "bushwick_number"
+      ],
+      "excludesFlags": [
+        "sally_dead",
+        "sally_moved",
+        "house_split"
+      ]
+    },
+    "weight": 45,
+    "once": true,
+    "chain": {
+      "id": "b8_076",
+      "beat": 2
+    }
+  },
+  {
+    "id": "b8_078",
+    "speaker": "ADLER",
+    "text": "For twenty-two years I have made every crew's figure agree with something. Bushwick's does not, and it is not short. It is too large, and money that size comes from one place only, and I have to write down where.",
+    "left": {
+      "label": "WRITE DOWN WHATEVER MAKES IT AGREE",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": 7,
+        "cash": 8,
+        "blood": 0
+      },
+      "setFlags": [
+        "bushwick_answer",
+        "duke_dope"
+      ]
+    },
+    "right": {
+      "label": "IT IS WRITTEN DOWN THE WAY IT IS",
+      "effects": {
+        "family": 6,
+        "commission": 0,
+        "cops": -7,
+        "cash": -6,
+        "blood": 0
+      },
+      "setFlags": [
+        "bushwick_answer",
+        "duke_dope"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "bushwick_hands"
+      ],
+      "excludesFlags": [
+        "adler_ran",
+        "adler_dead"
+      ]
+    },
+    "weight": 46,
+    "once": true,
+    "chain": {
+      "id": "b8_076",
+      "beat": 3
+    }
+  },
+  {
+    "id": "b8_079",
+    "speaker": "DUKE",
+    "text": "You know what it is and I know that you know. A third of what this family eats comes off it, and the Commission's rule is the Commission's rule. There's no third answer here and I'm not going to pretend there is.",
+    "left": {
+      "label": "IT RUNS, AND IT RUNS WITH MY NAME ON IT",
+      "effects": {
+        "family": 8,
+        "commission": -12,
+        "cops": 16,
+        "cash": 15,
+        "blood": 0
+      },
+      "setFlags": [
+        "duke_dope"
+      ]
+    },
+    "right": {
+      "label": "HE DOES NOT WALK AWAY FROM THIS ONE",
+      "effects": {
+        "family": -16,
+        "commission": 12,
+        "cops": 7,
+        "cash": -15,
+        "blood": 0
+      },
+      "setFlags": [
+        "duke_dead",
+        "house_split"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "bushwick_answer"
+      ],
+      "excludesFlags": [
+        "duke_dead",
+        "duke_broke_off"
+      ]
+    },
+    "weight": 48,
+    "once": true,
+    "chain": {
+      "id": "b8_076",
+      "beat": 4
+    }
+  },
+  {
+    "id": "b8_080",
+    "speaker": "DON BRACA",
+    "text": "Your father would have had this said to him in a garden and so will you. The table has looked at the man in Bed-Stuy and the arrangement he has uptown, and it would like the people who know him to see to it.",
+    "left": {
+      "label": "IT WILL BE SEEN TO",
+      "effects": {
+        "family": -6,
+        "commission": 12,
+        "cops": 5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "uptown_verdict",
+        "braca_owes_you"
+      ]
+    },
+    "right": {
+      "label": "HE IS OURS, AND NOT THEIRS TO RULE ON",
+      "effects": {
+        "family": 7,
+        "commission": -12,
+        "cops": 0,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": [
+        "uptown_verdict",
+        "braca_insulted"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "wills_connection"
+      ],
+      "excludesFlags": [
+        "braca_dead"
+      ]
+    },
+    "weight": 14,
+    "once": true,
+    "chain": {
+      "id": "b8_080",
+      "beat": 1
+    }
+  },
+  {
+    "id": "b8_081",
+    "speaker": "MOE WILLS",
+    "text": "Somebody has told me what was said about me at a table I have never sat at. Your father and I had an understanding, Don Marchetti. I will ask you one question and take whatever answer you give me. Do I go?",
+    "left": {
+      "label": "GO NORTH, AND STOP PAYING ANYBODY",
+      "effects": {
+        "family": -6,
+        "commission": 9,
+        "cops": 0,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": [
+        "wills_told",
+        "wills_stopped_paying"
+      ]
+    },
+    "right": {
+      "label": "STAY, AND SAY NOTHING TO ANYBODY",
+      "effects": {
+        "family": 6,
+        "commission": -11,
+        "cops": 5,
+        "cash": 8,
+        "blood": 0
+      },
+      "setFlags": [
+        "wills_told",
+        "wills_partner"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "uptown_verdict"
+      ],
+      "excludesFlags": [
+        "wills_dead",
+        "wills_war"
+      ]
+    },
+    "weight": 45,
+    "once": true,
+    "chain": {
+      "id": "b8_080",
+      "beat": 2
+    }
+  },
+  {
+    "id": "b8_082",
+    "speaker": "UNCLE SALLY",
+    "text": "Two men out of Ozone Park have sat on Fulton Street three days and they are not ours and they are not his. We move him tonight or we stand out of the way, and standing out of the way is what was asked for.",
+    "left": {
+      "label": "WE STAND OUT OF THE WAY",
+      "effects": {
+        "family": -8,
+        "commission": 12,
+        "cops": 0,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": [
+        "wills_dead"
+      ]
+    },
+    "right": {
+      "label": "HE IS MOVED TONIGHT",
+      "effects": {
+        "family": 8,
+        "commission": -12,
+        "cops": 6,
+        "cash": -7,
+        "blood": 0
+      },
+      "setFlags": [
+        "braca_insulted"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "wills_told"
+      ],
+      "excludesFlags": [
+        "sally_dead",
+        "sally_moved",
+        "house_split"
+      ]
+    },
+    "weight": 47,
+    "once": true,
+    "chain": {
+      "id": "b8_080",
+      "beat": 3
+    }
+  },
+  {
+    "id": "b8_083",
+    "speaker": "GIULIA",
+    "text": "My sister's husband has a linen route out in Union and he has offered to take Paolo for the summer. Then the school year. Then he does not come back. I have thought about this a long time and I am asking now.",
+    "left": {
+      "label": "THE BOY GOES",
+      "effects": {
+        "family": -8,
+        "commission": 0,
+        "cops": -6,
+        "cash": 0,
+        "blood": 12
+      },
+      "setFlags": [
+        "paolo_jersey",
+        "giulia_shielded"
+      ]
+    },
+    "right": {
+      "label": "HE STAYS WHERE HIS NAME IS",
+      "effects": {
+        "family": 7,
+        "commission": 0,
+        "cops": 5,
+        "cash": 0,
+        "blood": 6
+      },
+      "setFlags": [
+        "paolo_jersey"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": []
+    },
+    "weight": 13,
+    "once": true,
+    "chain": {
+      "id": "b8_083",
+      "beat": 1
+    }
+  },
+  {
+    "id": "b8_084",
+    "speaker": "A SOLDIER",
+    "text": "Boss, my kid asked me if it's true your boy's going to Jersey, because somebody's kid told him. I said I didn't know. I'm not asking you nothing. I've two of my own and I never sent them anywhere.",
+    "left": {
+      "label": "HE IS TOLD, AND SO IS EVERYBODY ELSE",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 5
+      },
+      "setFlags": [
+        "jersey_counted"
+      ]
+    },
+    "right": {
+      "label": "IT IS NOBODY'S BUSINESS WHERE MY SON SLEEPS",
+      "effects": {
+        "family": -7,
+        "commission": 9,
+        "cops": -4,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "jersey_counted"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "paolo_jersey"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 44,
+    "once": true,
+    "chain": {
+      "id": "b8_083",
+      "beat": 2
+    }
+  },
+  {
+    "id": "b8_085",
+    "speaker": "GIULIA",
+    "text": "Paolo has told me he does not want to go and told his teacher that he does, and he has not told either of us the truth. He is eleven and he has already worked out that there is a right answer for each of us.",
+    "left": {
+      "label": "ASK HIM WHAT HE WANTS, AND MEAN IT",
+      "effects": {
+        "family": -5,
+        "commission": 0,
+        "cops": -5,
+        "cash": 0,
+        "blood": 12
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "DECIDE IT FOR HIM AND TELL HIM AFTERWARDS",
+      "effects": {
+        "family": 6,
+        "commission": 8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 8
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "jersey_counted"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 47,
+    "once": true,
+    "chain": {
+      "id": "b8_083",
+      "beat": 3
+    }
+  },
+  {
+    "id": "b8_086",
+    "speaker": "ADLER",
+    "text": "The bank wants the guarantee renewed, and this time they want a statement of what you personally own, notarised, on their paper. If they ask me for it I have to give them what I have, and what I have is everything.",
+    "left": {
+      "label": "SIGN IT AND TAKE THE CREDIT",
+      "effects": {
+        "family": 5,
+        "commission": 0,
+        "cops": 8,
+        "cash": 12,
+        "blood": 0
+      },
+      "setFlags": [
+        "guarantee_asked",
+        "adler_legit_front"
+      ]
+    },
+    "right": {
+      "label": "THE COMPANY BORROWS FROM US INSTEAD",
+      "effects": {
+        "family": -5,
+        "commission": 0,
+        "cops": -7,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": [
+        "guarantee_asked"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "bank_line"
+      ],
+      "excludesFlags": [
+        "adler_ran",
+        "adler_dead"
+      ]
+    },
+    "weight": 14,
+    "once": true,
+    "chain": {
+      "id": "b8_086",
+      "beat": 1
+    }
+  },
+  {
+    "id": "b8_087",
+    "speaker": "CAPT. KIERNAN",
+    "text": "A fella from the bank's compliance came by the precinct asking whether we knew anything about the man at Marchetti Linen. I told him I'd look into it. That's twice now I've looked into something for you this year.",
+    "left": {
+      "label": "PAY HIM WHAT HE IS FISHING FOR",
+      "effects": {
+        "family": 5,
+        "commission": 0,
+        "cops": -8,
+        "cash": -11,
+        "blood": 0
+      },
+      "setFlags": [
+        "kiernan_price_up"
+      ]
+    },
+    "right": {
+      "label": "THANK HIM, AND NOTHING ELSE",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": 8,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "kiernan_refused"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "guarantee_asked"
+      ],
+      "excludesFlags": [
+        "kiernan_gone",
+        "kiernan_cold"
+      ]
+    },
+    "weight": 46,
+    "once": true,
+    "chain": {
+      "id": "b8_086",
+      "beat": 2
+    }
+  },
+  {
+    "id": "b8_088",
+    "speaker": "ANGELO",
+    "text": "Two people this week have asked me for money using your name and I do not know whether I am supposed to give it. Nobody sat me down afterwards and told me what I am now. I waited a month before asking.",
+    "left": {
+      "label": "SOMEBODY SITS WITH EVERY NEW MAN",
+      "effects": {
+        "family": 8,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "new_men_month",
+        "angelo_paid"
+      ]
+    },
+    "right": {
+      "label": "A MAN WHO HAS TO ASK IS NOT READY",
+      "effects": {
+        "family": -8,
+        "commission": 9,
+        "cops": -5,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "new_men_month",
+        "angelo_suspected"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "books_open"
+      ],
+      "excludesFlags": [
+        "angelo_dead",
+        "angelo_flipped"
+      ]
+    },
+    "weight": 13,
+    "once": true,
+    "chain": {
+      "id": "b8_088",
+      "beat": 1
+    }
+  },
+  {
+    "id": "b8_089",
+    "speaker": "UNCLE SALLY",
+    "text": "Every one of the new men has gone to Bushwick, because Bushwick is where the earning is, and in a year you will have made three men for somebody else's crew. Your father spread them. It cost him money and he did it.",
+    "left": {
+      "label": "THEY ARE SPREAD, AND IT COSTS US",
+      "effects": {
+        "family": 7,
+        "commission": 8,
+        "cops": 0,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": [
+        "sally_backed"
+      ]
+    },
+    "right": {
+      "label": "THEY GO WHERE THE WORK IS",
+      "effects": {
+        "family": -7,
+        "commission": 0,
+        "cops": 5,
+        "cash": 9,
+        "blood": 0
+      },
+      "setFlags": [
+        "sally_humiliated"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "new_men_month"
+      ],
+      "excludesFlags": [
+        "sally_dead",
+        "sally_moved",
+        "house_split"
+      ]
+    },
+    "weight": 45,
+    "once": true,
+    "chain": {
+      "id": "b8_088",
+      "beat": 2
+    }
+  },
+  {
+    "id": "b8_090",
+    "speaker": "THE CLUB",
+    "text": "There is a chain and a padlock on the Knickerbocker Avenue door this morning and a printed notice underneath it, and by ten o'clock there are forty men standing on the pavement outside with nowhere to go.",
+    "left": {
+      "label": "THE CHAIN COMES OFF AND WE OPEN",
+      "effects": {
+        "family": 8,
+        "commission": 8,
+        "cops": 8,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "club_shut"
+      ]
+    },
+    "right": {
+      "label": "EVERY MAN GOES HOME AND WAITS",
+      "effects": {
+        "family": -8,
+        "commission": -8,
+        "cops": -8,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "club_shut"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "club_lease"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 14,
+    "once": true,
+    "chain": {
+      "id": "b8_090",
+      "beat": 1
+    }
+  },
+  {
+    "id": "b8_091",
+    "speaker": "FATHER COLLA",
+    "text": "There is a hall under the school with a boiler you paid for and forty chairs in it, and it stands empty five days in seven. I am not offering it to you. I am telling you I know what I would be doing if I did.",
+    "left": {
+      "label": "TAKE THE HALL",
+      "effects": {
+        "family": 7,
+        "commission": -8,
+        "cops": 7,
+        "cash": 6,
+        "blood": 0
+      },
+      "setFlags": [
+        "colla_warned_you"
+      ]
+    },
+    "right": {
+      "label": "WE FIND OUR OWN ROOM",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": -6,
+        "cash": -8,
+        "blood": 0
+      },
+      "setFlags": [
+        "colla_warned_you"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "club_shut"
+      ],
+      "excludesFlags": [
+        "colla_gone"
+      ]
+    },
+    "weight": 45,
+    "once": true,
+    "chain": {
+      "id": "b8_090",
+      "beat": 2
+    }
+  },
+  {
+    "id": "b8_092",
+    "speaker": "DR. NARDI",
+    "text": "He is on my kitchen table and he will live. I have taken it out of him and put it in an envelope and the envelope is on my shelf. I want the debt gone and I want this to be the last time anybody telephones me.",
+    "left": {
+      "label": "THE DEBT IS GONE AND SO IS HE",
+      "effects": {
+        "family": -5,
+        "commission": 0,
+        "cops": 6,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": [
+        "nardi_finished",
+        "nardi_debt_cleared",
+        "nardi_gone"
+      ]
+    },
+    "right": {
+      "label": "THE DEBT STAYS AND SO DOES HE",
+      "effects": {
+        "family": 6,
+        "commission": 0,
+        "cops": -6,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": [
+        "nardi_finished",
+        "nardi_used"
+      ]
+    },
+    "requires": {
+      "flags": [],
+      "excludesFlags": [
+        "nardi_gone",
+        "nardi_talked"
+      ]
+    },
+    "weight": 13,
+    "once": true,
+    "chain": {
+      "id": "b8_092",
+      "beat": 1
+    }
+  },
+  {
+    "id": "b8_093",
+    "speaker": "AURELIO",
+    "text": "There is an envelope on a shelf in a doctor's house with something in it that came out of one of our men, and the doctor is a man who has never once had to be loyal, because nobody has ever once asked him to be.",
+    "left": {
+      "label": "SOMEBODY GOES AND COLLECTS THE ENVELOPE",
+      "effects": {
+        "family": 6,
+        "commission": -8,
+        "cops": -9,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "HE HAS KEPT WORSE THAN THAT FOR US",
+      "effects": {
+        "family": -6,
+        "commission": 9,
+        "cops": 7,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "nardi_finished"
+      ],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 46,
+    "once": true,
+    "chain": {
+      "id": "b8_092",
+      "beat": 2
+    }
+  },
+  {
+    "id": "b8_094",
+    "speaker": "AURELIO",
+    "text": "Now, listen to me. There is a grand jury sitting in the Eastern District and your name is on a list of witnesses, not of targets. That sounds like the better of the two words. It is not, and you must hear why.",
+    "left": {
+      "label": "HE GOES AND HE ANSWERS EVERYTHING",
+      "effects": {
+        "family": -6,
+        "commission": -11,
+        "cops": -10,
+        "cash": 0,
+        "blood": 0
+      },
+      "setFlags": [
+        "grand_jury"
+      ]
+    },
+    "right": {
+      "label": "HE GOES, SAYS HIS NAME, AND NOTHING ELSE",
+      "effects": {
+        "family": 7,
+        "commission": 9,
+        "cops": 8,
+        "cash": -6,
+        "blood": 0
+      },
+      "setFlags": [
+        "grand_jury"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "feds_active"
+      ],
+      "excludesFlags": [
+        "aurelio_dead"
+      ]
+    },
+    "weight": 14,
+    "once": true,
+    "chain": {
+      "id": "b8_094",
+      "beat": 1
+    }
+  },
+  {
+    "id": "b8_095",
+    "speaker": "GIULIA",
+    "text": "Two men in a car have been outside since Tuesday, and this morning one of them got out and handed me an envelope with my own name on it, in front of the children, and said he was sorry to do it that way.",
+    "left": {
+      "label": "SHE IS TOLD EXACTLY WHAT TO SAY",
+      "effects": {
+        "family": 6,
+        "commission": 0,
+        "cops": -7,
+        "cash": 0,
+        "blood": 12
+      },
+      "setFlags": [
+        "giulia_told"
+      ]
+    },
+    "right": {
+      "label": "TELL HER IT IS A CLERICAL MISTAKE",
+      "effects": {
+        "family": -6,
+        "commission": 8,
+        "cops": 6,
+        "cash": 0,
+        "blood": 8
+      },
+      "setFlags": [
+        "giulia_lied_to"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "grand_jury"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 48,
+    "once": true,
+    "chain": {
+      "id": "b8_094",
+      "beat": 2
+    }
+  },
+  {
+    "id": "b8_096",
+    "speaker": "ADLER",
+    "text": "Bushwick's envelope came in on Friday and eleven men had counted it themselves and got eleven different figures. Nobody in that crew has ever had to write anything down. Somebody has to be sent over there.",
+    "left": {
+      "label": "SEND SOMEBODY WITH A BOOK",
+      "effects": {
+        "family": -7,
+        "commission": 0,
+        "cops": 0,
+        "cash": 11,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LET THEM COUNT IT THEMSELVES A WHILE",
+      "effects": {
+        "family": 6,
+        "commission": 0,
+        "cops": -5,
+        "cash": -8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "duke_dead"
+      ],
+      "excludesFlags": [
+        "adler_ran",
+        "adler_dead"
+      ]
+    },
+    "weight": 26,
+    "once": true
+  },
+  {
+    "id": "b8_097",
+    "speaker": "THE STREET",
+    "text": "Nobody north of the parkway wrote a number this week. Three of our own corners have stopped as well, and the men on them say that it is out of respect, and nobody has asked them whose respect they mean.",
+    "left": {
+      "label": "OUR CORNERS OPEN TOMORROW",
+      "effects": {
+        "family": 5,
+        "commission": -8,
+        "cops": 5,
+        "cash": 11,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "LET THE WEEK GO BY",
+      "effects": {
+        "family": -6,
+        "commission": 9,
+        "cops": -5,
+        "cash": -7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "wills_dead"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 25,
+    "once": true
+  },
+  {
+    "id": "b8_098",
+    "speaker": "UNCLE SALLY",
+    "text": "Kid, my brother's wife's house has been shut five weeks and the parish wants to know about the anniversary Mass, and they asked me because they could not ask you. Somebody is going to have to stand up and read.",
+    "left": {
+      "label": "I READ",
+      "effects": {
+        "family": 7,
+        "commission": 9,
+        "cops": 0,
+        "cash": 0,
+        "blood": 10
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "SALLY READS",
+      "effects": {
+        "family": -6,
+        "commission": -8,
+        "cops": 0,
+        "cash": 0,
+        "blood": 5
+      },
+      "setFlags": [
+        "sally_backed"
+      ]
+    },
+    "requires": {
+      "flags": [
+        "concetta_dead"
+      ],
+      "excludesFlags": [
+        "sally_dead",
+        "sally_moved",
+        "house_split"
+      ]
+    },
+    "weight": 27,
+    "once": true
+  },
+  {
+    "id": "b8_099",
+    "speaker": "THE PHONE",
+    "text": "It is the bank on Myrtle, and they would like to speak to the gentleman who keeps the company's books about a signature on a guarantee, and they will hold, and they say they can hold as long as it takes.",
+    "left": {
+      "label": "SOMEBODY PICKS IT UP AND IS THE BOOKKEEPER",
+      "effects": {
+        "family": 5,
+        "commission": 0,
+        "cops": 7,
+        "cash": 7,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "NOBODY ANSWERS THAT TELEPHONE AGAIN",
+      "effects": {
+        "family": 0,
+        "commission": -8,
+        "cops": -7,
+        "cash": -9,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "adler_dead"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 24,
+    "once": true
+  },
+  {
+    "id": "b8_100",
+    "speaker": "A SOLDIER",
+    "text": "There's a fella in Maspeth does it now. He wants two hundred, he wants it beforehand, and he is not a doctor — he was a corpsman in Korea and he says that's the same thing. Nobody has asked him twice.",
+    "left": {
+      "label": "HE IS WHAT WE HAVE",
+      "effects": {
+        "family": -6,
+        "commission": 0,
+        "cops": 5,
+        "cash": -8,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "right": {
+      "label": "FIND SOMEBODY WITH A LICENCE",
+      "effects": {
+        "family": 7,
+        "commission": 0,
+        "cops": -6,
+        "cash": -10,
+        "blood": 0
+      },
+      "setFlags": []
+    },
+    "requires": {
+      "flags": [
+        "nardi_gone"
+      ],
+      "excludesFlags": []
+    },
+    "weight": 25,
+    "once": true
+  }
+]
